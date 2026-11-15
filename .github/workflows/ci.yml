@@ -17,4 +17,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check whitespace errors
-        run: git diff --check HEAD^ HEAD
+        run: git diff --check
+
